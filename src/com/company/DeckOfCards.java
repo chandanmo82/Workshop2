@@ -1,18 +1,13 @@
 package com.company;
 
-import java.util.Random;
-
 public class DeckOfCards {
+    private final int NUMBER_OF_CARDS = 52;
     int[][] cards = new int[4][13];    //	array of cards
 
     public static void main(String[] args) {
-        DeckOfCards deckOfCards = new DeckOfCards();    //	class object
-
-        //	allots cards for each player
-        for (int playerNumber = 1; playerNumber <= 4; playerNumber++) {
-
-            System.out.println("Player " + playerNumber + "'s cards:");
+        String ranks[] = { "Ace", "Two", "Three", "Four", "Five", "Six",
+                "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+        String suits[] = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
         }
     }
-}
